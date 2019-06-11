@@ -55,7 +55,7 @@ nav a:hover {
 /* general styling */
 
 .container {
-  width: 100%;
+
   max-width: 960px;
   margin: 0 auto;
   clear: both;
@@ -190,7 +190,6 @@ h3,
 
 .main-section {
   float: left;
-  width: 100%;
   max-width: 650px;
   padding: 30px;
   margin: 0 0 40px;
@@ -237,3 +236,22 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
+@media only screen and (max-width: 640px){
+body{
+  margin:0;
+  width: 100%;
+  }
+}
+
+
+@media screen and (max-width: 768px){
+    .container {width: 100%;
+    }
+}
+
+@media screen and (max-width: 980px){
+    .container{
+      width: 70%;
+    }
+  }

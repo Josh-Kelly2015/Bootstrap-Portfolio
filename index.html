@@ -13,6 +13,7 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="assets/css/style.css" />
     <!-- -------------------------------- JavaScript Globals  --------------------------------- -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
@@ -53,7 +54,7 @@
           <div class="collapse navbar-collapse " id="navbarNav">
             <ul class="navbar-nav ">
               <li class="nav-item active">
-                <a class="nav-link text-white" href="#">Home </a>
+                <a class="nav-link text-white" href="index.html">Home </a>
               </li>
               <li class="nav-item active">
                 <a class="nav-link text-white" href="index.html">About</a>
@@ -71,18 +72,17 @@
         </div>
       </nav>
       <!-- --------------------------- Main Section --------------------------- -->
-      <div class="container bg-light">
+      <div class="container">
         <!-- ---------------------- Main Section Header ------------------------ -->
         <div class="row justify-content-center">
           <h1>Bio</h1>
         </div>
         <!-- ----------------------- Main Section Body ------------------------- -->
-        <!-- Picture + Bio Row -->
         <div class="row">
-          <div class="col-4">
-            <img src="assets/images/cat.jpg" alt="Selfieeee" />
-          </div>
-          <div class="col-8">
+          <div class="jumbotron">
+            <div class="col-4">
+              <img src="assets/images/cat.jpg" alt="Selfieeee" />
+            </div>
             <p>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
               vestibulum luctus felis, ac rhoncus nunc porttitor condimentum.
@@ -92,13 +92,25 @@
               sollicitudin consectetur. Donec vehicula lacus at leo feugiat
               lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc
             </p>
+            <div class="row">
+              <div class="col">More Stuff about me</div>
+              <div class="col">Maybe a list a bout me idk</div>
+            </div>
+            <hr class="my-4" />
+            <p>
+              Checkout my GitHub or LinkedIn profiles!
+            </p>
+            <a class="btn btn-primary btn-lg" href="#" role="button">Github</a>
+            <a class="btn btn-primary btn-lg" href="#" role="button"
+              >LinkedIn</a
+            >
           </div>
         </div>
-        <!--  Skills Interests, Goals Row -->
+        <!-- Picture + Bio Row -->
         <div class="row">
-          <div class="col">More Stuff about me</div>
-          <div class="col">Maybe a list a bout me idk</div>
+          <div class="col-8"></div>
         </div>
+        <!--  Skills Interests, Goals Row -->
       </div>
       <!-- ------------------------------- Footer ------------------------------- -->
       <footer class="footer mt-auto py-3 bg-dark">

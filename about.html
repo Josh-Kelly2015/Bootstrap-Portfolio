@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Bootstrap Portfolio</title>
-    <!-- --------------------- BootStrap  ----------------------- -->
+    <!-- -------------------------------- Bootstrap Globals  --------------------------------- -->
     <meta
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
@@ -14,7 +14,7 @@
       integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
       crossorigin="anonymous"
     />
-    <!-- --------------------- JS  ----------------------- -->
+    <!-- -------------------------------- JavaScript Globals  --------------------------------- -->
     <script
       src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
@@ -31,9 +31,11 @@
       crossorigin="anonymous"
     ></script>
   </head>
+
   <body>
+    <!------------------------------------------------------------------------------>
     <div class="container-fluid">
-      <!-- -------------------- Header ---------------------- -->
+      <!-- ----------------------------- Header ------------------------------ -->
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
           <a class="navbar-brand" href="index.html">Joshua Kelly</a>
@@ -66,39 +68,41 @@
           </div>
         </div>
       </nav>
-      <!-- --------------------- Main Section ----------------------- -->
+      <!-- --------------------------- Main Section --------------------------- -->
       <div class="container bg-light">
-        <h1>About Me</h1>
-        <img src="assets/images/cat.jpg" alt="Selfieeee" />
-
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          vestibulum luctus felis, ac rhoncus nunc porttitor condimentum. Mauris
-          sit amet dolor eu elit varius varius facilisis id arcu. Proin vel dui
-          massa. Nunc rhoncus fringilla pharetra. Vestibulum bibendum
-          consectetur euismod. Proin commodo purus vitae sollicitudin
-          consectetur.
-        </p>
-
-        <p>
-          Donec vehicula lacus at leo feugiat lacinia. In et ex ultrices,
-          ultrices neque non, pretium odio. Nunc id eros iaculis, pulvinar quam
-          eget, egestas mauris.
-        </p>
-
-        <p>
-          Suspendisse dictum, arcu at convallis faucibus, quam sapien tincidunt
-          nunc, sit amet egestas nibh tortor et mi. Orci varius natoque
-          penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        </p>
+        <!-- ---------------------- Main Section Header ------------------------ -->
+        <div class="row justify-content-center">
+          <h1>Bio</h1>
+        </div>
+        <!-- ----------------------- Main Section Body ------------------------- -->
+        <div class="row">
+          <div class="col-4">
+            <img src="assets/images/cat.jpg" alt="Selfieeee" />
+          </div>
+          <div class="col-8">
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
+              vestibulum luctus felis, ac rhoncus nunc porttitor condimentum.
+              Mauris sit amet dolor eu elit varius varius facilisis id arcu.
+              Proin vel dui massa. Nunc rhoncus fringilla pharetra. Vestibulum
+              bibendum consectetur euismod. Proin commodo purus vitae
+              sollicitudin consectetur. Donec vehicula lacus at leo feugiat
+              lacinia. In et ex ultrices, ultrices neque non, pretium odio. Nunc
+            </p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">More Stuff about me</div>
+          <div class="col">Maybe a list a bout me idk</div>
+        </div>
       </div>
-      <!-- --------------------- Footer ----------------------- -->
+      <!-- ------------------------------- Footer ------------------------------- -->
       <footer class="bg-dark">
         <div class="container text-white">
           Copyright &copy;
         </div>
       </footer>
-      <!-- ---------------------------------------------------- -->
     </div>
+    <!-------------------------------------------------------------------------------->
   </body>
 </html>
